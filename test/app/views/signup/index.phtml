@@ -1,0 +1,35 @@
+<h2>Sign up using this form</h2>
+
+<?php echo $this->tag->form("signup/register"); ?>
+
+ <p>
+    <label for="nome_completo">Nome completo</label>
+    <?php echo $this->tag->textField("nome_completo") ?>
+ </p>
+
+ <p>
+    <label for="login">Login</label>
+    <?php echo $this->tag->textField("login") ?>
+ </p>
+
+ <p>
+    <label for="email">E-Mail</label>
+    <?php echo $this->tag->textField("email") ?>
+ </p>
+
+ <p>
+    <label for="senha">Senha'</label>
+    <?php echo $this->tag->textField("senha") ?>
+ </p>
+
+ <p>
+    <label for="status">Status</label>
+    <?php echo $this->tag->textField("status") ?>
+ </p>
+
+ <p>
+    <?php echo $this->tag->submitButton("Register") ?>
+ </p>
+
+</form>
+
